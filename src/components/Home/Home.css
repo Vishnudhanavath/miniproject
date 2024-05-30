@@ -1,0 +1,57 @@
+.store-details{
+    background-color: white;
+}
+.store-card{
+    background-color: whitesmoke;
+    /* box-shadow: 10px 5px 5px red */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding:10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.logo{
+    height:70px;
+    padding-bottom:10px;
+}
+
+.store-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.store-heading{
+    font-family: 'Lucida Sans';
+    font-size: 15px;
+}
+
+.recent-uploads-container{
+    background-color: white;
+}
+.slider-container {
+    background-color:white;
+    padding: 40px;
+}
+.image-book{
+    height:300px;
+}
+.uploaded-heading{
+    color:black;
+}
+
+
+
+.slick-prev,
+.slick-next {
+  font-size: 24px; /* Adjust the font size as desired */
+  color: #ff0000; /* Change the color to your desired color */
+  background-color: transparent; /* Set background color to transparent */
+}
+
+/* Optional: Hover styles for next and previous buttons */
+.slick-prev:hover,
+.slick-next:hover {
+  color: #ff9999; /* Change the hover color */
+}
